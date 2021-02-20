@@ -1,0 +1,135 @@
+body {
+    font-family: 'Poppins', 'Arial', sans-serif;
+    background-color: white;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: calc(10%) auto;
+    margin-top: minmax(20px, 100px);
+}
+
+.calculator {
+    background-color: #f9f8f8;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+.background {
+    padding: 10px;
+    border-radius: 50px;
+    box-shadow: inset 3px 3px 15px #eae8e8,
+                inset -2px -2px 15px #eae8e8;
+}
+
+.background-2 {
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px #eae8e8;
+}
+
+.main-keys {
+    display: grid;
+    grid-template-areas: 
+        "seven eight nine plus"
+        "four five six minus"
+        "one two three multiply"
+        "zero decimal divide equals";
+}
+
+div > input[type='button'] {
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    font-size: 35px;
+    border-radius: 80px;
+    border-style: none;
+    color: #444;
+    font-weight: 300;
+    background-color: #f4f3f3;
+    box-shadow: 5px 5px 10px white,
+                -5px -5px 10px #e0e0e0;
+}
+
+div > input[type='button']#display {
+    text-align: right;
+    font-weight: 300;
+    padding-right: 20px;
+    width: 420px;
+    height: 110px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    background-color: #f9f8f8;
+    box-shadow: inset 2px 2px 5px white,
+                inset -2px -2px 15px #e0e0e0;
+}
+
+div > input[type='button']#clear {
+    width: 420px;
+    height: 80px;
+    border-radius: 30px;
+}
+
+.seven {
+    grid-area: seven;
+}
+
+.eight {
+    grid-area: eight;
+}
+
+.nine {
+    grid-area: nine;
+}
+
+.plus {
+    grid-area: plus;
+}
+
+.six {
+    grid-area: six;
+}
+
+.five {
+    grid-area: five;
+}
+
+.four {
+    grid-area: four;
+}
+
+.minus {
+    grid-area: minus;
+}
+
+.one {
+    grid-area: one;
+}
+
+.two {
+    grid-area: two;
+}
+
+.three {
+    grid-area: three;
+}
+
+.divide {
+    grid-area: divide;
+}
+
+.zero {
+    grid-area: zero;
+}
+
+.decimal {
+    grid-area: decimal;
+}
+
+.equals {
+    grid-area: equals;
+}
+
+
