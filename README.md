@@ -1,4 +1,5 @@
-### Calculator App - HTML, CSS & JAVASCRIPT
+### Calculator
 
-Simple calculator app with clean, neumorphic UI design.
+Simple calculator app made with HTML, CSS and Javascript.
+Minimal, neumorphic UI design.
 
