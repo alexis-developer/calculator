@@ -2,6 +2,6 @@
 
 #### https://alexis-developer.github.io/calculator/
 
-Simple calculator app made with HTML, CSS and Javascript.
-Minimal, neumorphic UI design.
+<p>Simple calculator app made with HTML, CSS and Javascript.</p>
+<p>Minimal, neumorphic UI design.</p>
 
